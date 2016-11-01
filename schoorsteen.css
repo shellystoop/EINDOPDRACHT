@@ -1,0 +1,28 @@
+html {
+    height: 80em;
+}
+
+body {
+    background-image:url("afbeeldingen/verhalen/schoorsteennieuw-01.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+@media (min-width: 40em) {
+    body {
+    background-image:url("afbeeldingen/verhalen/schoorsteennieuw-02.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+ }
+}
+
+@media (min-width: 70em) {
+    body {
+    background-image:url("afbeeldingen/verhalen/schoorsteennieuw-03.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+ }
+}

@@ -1,0 +1,28 @@
+html {
+    height: 110em;
+}
+
+body {
+    background-image:url("afbeeldingen/verhalen/gefrustreerd-01.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+@media (min-width: 40em) {
+    body {
+    background-image:url("afbeeldingen/verhalen/gefrustreerd-02.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+ }
+}
+
+@media (min-width: 70em) {
+    body {
+    background-image:url("afbeeldingen/verhalen/gefrustreerd-03.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+ }
+}

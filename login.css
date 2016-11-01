@@ -1,0 +1,115 @@
+/*INLOGPAGINA*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1.2em;
+    padding: 0;
+    margin: 0;
+}
+
+header > img {
+    width: 13em;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 3em
+}
+
+form legend {
+    display: none;
+}
+
+form {
+    margin-left: auto;
+    margin-right: auto;
+    width: 20em;
+    margin-top: 2em;
+    padding: 1em;
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+}
+
+label + input {
+    border-color: #606060;
+    padding: 0.7em;
+    font-size: 0.9em;
+    margin-bottom: 1em;
+    margin-top: 0.2em;
+    width: 100%;
+    font-family: "nexa light", helvetica;
+    border-radius: 0.2em;
+    border: solid .06em;
+}
+
+input[type='submit'] {
+    font-size: 1em;
+    width: 100%;
+    border-radius: 0.2em;
+    background-color: #00D66C;
+    color: #fff;
+    font-family: "Nexa light", helvetica;
+    padding: 0.7em;
+    outline: none;
+    border-style: none;
+}
+
+label {
+    display: none;
+}
+
+form input[type='submit']:nth-child(2) {
+    background-color: #00D66C;
+}
+
+input[type='submit']:first-child {
+    margin-bottom: 0.6em;
+    background-color: #2800A0;
+}
+
+p + fieldset input[type='submit']:nth-child(2) {
+    margin-bottom: 0;
+    background-color: #FF2E62;
+}
+
+p {
+    text-align: center;
+    font-family: "nexa light", helvetica;
+    font-size: 0.85em;
+}
+
+input + p {
+    color: #FF2E62;
+}
+
+.fout {
+    color: #FF2E62;
+}
+
+a {
+    text-decoration: none;
+    color: #FF2E62;
+}
+
+main section:nth-child(3) {
+    padding: 0;
+}
+
+input:valid {
+    border-color: #00D66C;
+}
+
+@media (min-width: 35em) {
+    body {
+        background-image: url("afbeeldingen/photo-1424298397478-4bd87a6a0f0c.jpeg");
+        background-color: #cccccc;
+        background-position: center center;
+        background-size: 110em;
+        background-repeat: no-repeat;
+    }
+}

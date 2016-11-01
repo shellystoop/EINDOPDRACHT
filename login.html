@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="login.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Inloggen</title>
+</head>
+
+<body>
+    <main>
+        <header>
+            <img src="afbeeldingen/vormgeving-01%20kopie.png" alt="Logo transavia">
+        </header>
+        <form id="login">
+            <fieldset>
+                <legend>Inloggegevens</legend>
+                <label for="username">Gebruikersnaam</label>
+                <input id="username" placeholder="Gebruikersnaam" required>
+                <label for="password">Wachtwoord</label>
+                <input id="password" type="password" placeholder="Wachtwoord" required>
+                <p class="error"></p>
+                <input class="login" type="submit" value="Inloggen">
+            </fieldset>
+            <p>Of</p>
+            <fieldset>
+                <input type="submit" value="Login met Facebook">
+                <input type="submit" value="Login met Google">
+            </fieldset>
+        </form>
+        <footer>
+            <p>Nog geen account? <a href="registreren.html">Registreren</a></p>
+        </footer>
+    </main>
+
+    <script src="check.js"></script>
+</body>
+
+</html>
